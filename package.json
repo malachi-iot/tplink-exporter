@@ -1,0 +1,22 @@
+{
+  "name": "tplink-prom-exporter",
+  "version": "0.7.0",
+  "description": "Enumerates TP-Link data into an exporter which Prometheus can pick up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tplink",
+    "prometheus",
+    "exporter",
+    "home-automation"
+  ],
+  "author": "Malachi Burke",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "prom-client": "^11.0.0",
+    "tplink-smarthome-api": "^0.22.0"
+  }
+}
